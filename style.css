@@ -1,16 +1,19 @@
+
 html, body {
-    height: 100%; /* Ensure html and body take full height */
-    margin: 0;   /* Remove default margins */
-    padding: 0;  /* Remove default padding */
+  height: 100%; /* Ensure html and body take full height */
+  margin: 0;   /* Remove default margins */
+  padding: 0;  /* Remove default padding */
 }
 
-.center-container {
-    display: flex;             /* Enable Flexbox */
-    justify-content: center;   /* Center content horizontally */
-    align-items: center;       /* Center content vertically */
-    height: 100%;              /* Make container take full height of body */
-}
-
-.center-container p {
-    text-align: center; /* Ensure the text itself is centered within its paragraph */
+.centered-text-container {
+  /* Center the container horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  /* Set a maximum width for the container to prevent it from stretching across the entire page */
+  max-width: 800px; /* Adjust as needed */
+  /* Add padding to the left and right of the container */
+  padding-left: 20px; /* Adjust as needed */
+  padding-right: 20px; /* Adjust as needed */
+  /* Center the text within the container */
+  text-align: center;
 }

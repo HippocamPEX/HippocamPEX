@@ -1,0 +1,16 @@
+html, body {
+    height: 100%; /* Ensure html and body take full height */
+    margin: 0;   /* Remove default margins */
+    padding: 0;  /* Remove default padding */
+}
+
+.center-container {
+    display: flex;             /* Enable Flexbox */
+    justify-content: center;   /* Center content horizontally */
+    align-items: center;       /* Center content vertically */
+    height: 100%;              /* Make container take full height of body */
+}
+
+.center-container p {
+    text-align: center; /* Ensure the text itself is centered within its paragraph */
+}
